@@ -4,7 +4,7 @@
   "description": "Fix all tab formatting in your JavaScript project",
   "main": "index.js",
   "bin": {
-    "tabber": "cli.js"
+    "tabfix": "cli.js"
   },
   "start": "node cli.js",
   "scripts": {
