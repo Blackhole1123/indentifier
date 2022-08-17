@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const tabber = require('tabber');
+const tabfix = require('tabfix');
 const file = process.argv[2];
 try {
-    tabber(file);
+    tabfix(file);
 } catch (error) {
     console.error(error);
 }
