@@ -1,6 +1,6 @@
 {
   "name": "tabfix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix all tab formatting in your JavaScript project",
   "main": "index.js",
   "bin": {
