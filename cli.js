@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-const tabfix = require('tabfix');
+const indentify = require('indentifier');
 const file = process.argv[2];
 try {
-    tabfix(file);
+    indentify(file);
 } catch (error) {
     console.error(error);
 }

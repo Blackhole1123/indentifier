@@ -44,4 +44,4 @@ function fix(file) {
 if (require.main === module) {
     fix(file);
 }
-module.exports = fix;
+module.exports = fix; 
