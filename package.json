@@ -1,6 +1,6 @@
 {
   "name": "indentifier",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Fix all tab formatting in your JavaScript project",
   "main": "index.js",
   "bin": {
