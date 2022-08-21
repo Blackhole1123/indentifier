@@ -17,6 +17,11 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
+      run: |
+          echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
+          cat .npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-npm:
     needs: build
